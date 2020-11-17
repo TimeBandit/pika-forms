@@ -6,8 +6,7 @@ const gistId = "05749d5bdaeb0d92d33c3abb47d5c852";
 const gistName = "data";
 
 const useLoadData = (id = gistId) => {
-  const [data, setData] = useState({});
-
+  const [data, setData] = useState<{ pages?: any[]; title?: string }>({});
   useEffect(() => {
     fetch(`${baseUrl}${id}`)
       .then((res) => {
