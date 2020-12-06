@@ -6,12 +6,12 @@ const P = styled.p`
   font-size: ${theme.fonts.size[24]};
 `;
 
-interface ParagraphProps {
+interface OptionsProps {
   text?: string;
 }
 
-const Paragraph = ({ text }: ParagraphProps) => {
+const Options = ({ text }: OptionsProps) => {
   return <P>{text}</P>;
 };
 
-export default Paragraph;
+export default Options;

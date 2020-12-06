@@ -4,4 +4,5 @@ html {
 
 body {
   overflow-y: hidden;
+  -webkit-font-smoothing: antialiased;
 }

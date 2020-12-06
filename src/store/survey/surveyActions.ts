@@ -2,18 +2,18 @@ import State from "../State";
 
 export type PageType =
   | "info"
-  | "text-input-question"
+  | "multiple-choice-question"
   | "single-choice-question"
-  | "multiple-choice-question";
+  | "text-input-question";
 
 export type PageElementType =
-  | "image"
-  | "paragraph"
-  | "next-button"
   | "blockquote"
-  | "submit"
+  | "image"
+  | "next-button"
   | "options"
-  | "secondary";
+  | "paragraph"
+  | "secondary"
+  | "submit";
 
 export interface Page {
   type: PageType;

@@ -1,8 +1,13 @@
+@import url("https://fonts.googleapis.com/css2?family=Karla&display=swap");
+
 html {
   font-size: 62.5%;
-  line-height: 1.5;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell,
-    "Helvetica Neue", sans-serif;
+  line-height: 3.2rem;
+  /* line-height: 1.5; */
+  font-family: "Karla", sans-serif;
+  color: rgb(55, 64, 74);
+  /* font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, */
+  /* "Helvetica Neue", sans-serif; */
 }
 
 /* 640 */
