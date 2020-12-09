@@ -1,11 +1,11 @@
 // https://dev.to/ramsay/build-a-redux-like-global-store-using-react-hooks-4a7n
-import React, { useEffect } from "react";
-import Content from "./component/Content";
+// https://imrt.typeform.com/to/BPYHVOtU#src=rt
+import React from "react";
 
-import { Layout } from "./component/Layout";
-import { Nav } from "./component/Nav";
-import useLoadData from "./hooks/useLoadData";
-import { StoreProvider, useStore } from "./store/useStore";
+import Content from "./components/Layout/Content";
+import { Layout } from "./components/Layout/Layout";
+import Nav from "./components/Layout/Nav";
+import { StoreProvider } from "./store/useStore";
 
 function App() {
   return (

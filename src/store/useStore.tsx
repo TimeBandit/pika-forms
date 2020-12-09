@@ -26,7 +26,7 @@ const Actions = {
   ...surveyActions,
 };
 
-type Action = { type: keyof typeof Actions; payload: any };
+type Action = { type: keyof typeof Actions; payload?: any };
 // create the reducer
 const reducer = (state: State, action: Action): State => {
   const act = Actions[action.type];

@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-export const Question = styled.li`
+export const Layout = styled.main`
+  width: 100vw;
   height: 100vh;
-  border: 1px dashed red;
 `;

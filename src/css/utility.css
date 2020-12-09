@@ -3,5 +3,6 @@ html {
 }
 
 body {
-  overflow-x: hidden;
+  overflow-y: hidden;
+  -webkit-font-smoothing: antialiased;
 }
