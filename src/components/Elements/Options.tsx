@@ -6,12 +6,13 @@ const P = styled.p`
   font-size: ${theme.fonts.size[24]};
 `;
 
-interface OptionsProps {
-  text?: string;
+interface OptionProps {
+  id: string;
+  options: [{ image: string; text: string }];
 }
-
-const Options = ({ text }: OptionsProps) => {
-  return <P>{text}</P>;
+// TODO options has no type, this should be the page type
+const Options = ({ id, options }: OptionProps) => {
+  return <P>soemtin</P>;
 };
 
 export default Options;

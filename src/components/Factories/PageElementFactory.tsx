@@ -21,7 +21,7 @@ const PageElementFactory = ({ id, props }: Props) => {
     case "next-button":
       return <NextButton {...rest} />;
     case "options":
-      return <Options {...rest} />;
+      return <Options id={id} {...rest} />;
     case "paragraph":
       return <Paragraph {...rest} />;
     case "secondary":

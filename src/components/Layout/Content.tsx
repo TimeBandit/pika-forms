@@ -25,8 +25,9 @@ const Content = () => {
 
   return (
     <ContentWrapper>
-      {state.survey.pages &&
-        state.survey.pages.map((page, index) => <SurveyPage page={page} key={index} />)}
+      {state.survey.pages?.map((page, index) => (
+        <SurveyPage page={page} key={index} />
+      ))}
     </ContentWrapper>
   );
 };

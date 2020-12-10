@@ -13,11 +13,10 @@ interface PageProps {
 }
 const SurveyPage = ({ page }: PageProps) => {
   const id = page.id.toString();
-
   return (
     <PageWrapper id={id}>
-      {page.layout.map((desc, index) => (
-        <PageElementFactory key={index} id={id} props={desc} />
+      {page.layout.map((layoutDescription, index) => (
+        <PageElementFactory key={index} id={id} props={layoutDescription} />
       ))}
     </PageWrapper>
   );
