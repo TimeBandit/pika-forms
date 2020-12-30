@@ -18,14 +18,16 @@ const PageElementFactory = ({ id, props }: Props) => {
       return <Blockquote {...rest} />;
     case "image":
       return <Picture {...rest} />;
+    case "multiple-choice":
+      return null;
     case "next-button":
       return <NextButton {...rest} />;
-    case "options":
-      return <Options id={id} {...rest} />;
     case "paragraph":
       return <Paragraph {...rest} />;
     case "secondary":
       return null;
+    case "single-choice":
+      return <Options id={id} {...rest} />;
     case "submit":
       return null;
     default:
