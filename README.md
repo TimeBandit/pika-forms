@@ -1,4 +1,4 @@
-![Status](https://github.com/TimeBandit/pika-forms/workflows/build-status/badge.svg)
+![Status](https://github.com/TimeBandit/pika-forms/workflows/status/badge.svg)
 
 # Getting Started with Create React App
 
